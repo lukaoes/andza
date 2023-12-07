@@ -1,9 +1,10 @@
-import { AndzaLayout, ThickBottom, ThickMiddle } from "./andza.styled"
+import { AndzaLayout, ThickBottom, ThickMiddle, ThickTop } from "./andza.styled"
 
 const Andza = () => {
 
     return (
         <AndzaLayout>
+            <ThickTop></ThickTop>
             <ThickMiddle></ThickMiddle>
             <ThickBottom></ThickBottom>
         </AndzaLayout>

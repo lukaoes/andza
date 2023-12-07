@@ -27,12 +27,12 @@ export const ThickMiddle = styled.div`
     width: 8px;
 
     background: linear-gradient(to bottom,
-        rgb(245 89 88) 23%,
-        rgb(245 89 88) 23%,
         white 23%,
-        white 83%,
+        white 23%,
+        rgb(245 89 88) 23%,
         rgb(245 89 88) 83%,
-        rgb(245 89 88) 100%
+        white 83%,
+        white 100%
     );
     
 `
@@ -40,4 +40,15 @@ export const ThickMiddle = styled.div`
 export const ThickTop = styled.div`
     height: 185px;
     width: 6px;
+
+    background: linear-gradient(to bottom,
+    white 14%,
+    rgb(245 89 88) 14%,
+    rgb(245 89 88) 41%,
+    white 41%,
+    white 51%,
+    rgb(245 89 88) 51%,
+    rgb(245 89 88) 83%,
+    white 83%
+  )
 `

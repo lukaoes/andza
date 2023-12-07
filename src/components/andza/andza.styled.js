@@ -32,6 +32,7 @@ export const ThickMiddle = styled.div`
     margin-right: 4px;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
+    position: relative;
     background: linear-gradient(to bottom,
         white 23%,
         white 23%,
@@ -67,7 +68,9 @@ export const MiddleThickConnectBottom = styled.div`
     border: 4px solid 	#F55958;
     border-radius: 2px;
     margin-right: 33px;
+    position: relative;
     background-color: white;
+    z-index: 1;
 `
 
 export const MiddleThickConnectTop = styled.div`
@@ -80,3 +83,45 @@ export const MiddleThickConnectTop = styled.div`
     border-bottom-left-radius: 70%;
     margin-right: 4.5px;
 `
+
+export const TinyLegOne = styled.div`
+    width: 55px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    border-top-left-radius: 2px;
+    top: 61.3px;
+    right: 10px;
+`
+
+export const TinyLegTwo = styled.div`
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(110deg);
+    position: absolute;
+    top: 28px;
+    right: 16px;
+`
+
+export const TinyLegThree = styled.div`
+    width: 145px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(101deg);
+    position: absolute;
+    top: 63px;
+    right: -50px;
+`
+
+export const TinyLegFour = styled.div`
+    width: 71px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(120deg);
+    position: absolute;
+    top: 91px;
+    right: 45px;
+    border-top-right-radius: 20px;
+`
+

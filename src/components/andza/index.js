@@ -1,7 +1,7 @@
 import { AndzaLayout, ThickBottom, ThickMiddle, ThickTop } from "./andza.styled"
 import { MiddleThickConnectBottom, MiddleThickConnectTop } from "./andza.styled"
 import { TinyLegOne, TinyLegTwo, TinyLegThree, TinyLegFour } from "./andza.styled"
-import { SmallJointOne, SmallJointTwo, SmallJointThree } from "./andza.styled"
+import { SmallJointOne, SmallJointTwo, SmallJointThree, TopCircle } from "./andza.styled"
 
 
 
@@ -9,8 +9,9 @@ const Andza = () => {
 
     return (
         <AndzaLayout>
-            <ThickTop>
 
+            <ThickTop>
+                <TopCircle></TopCircle>
             </ThickTop>
 
             <MiddleThickConnectTop></MiddleThickConnectTop>

@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className={`sky-gradient sky-gradient-${currentClass}`}>
-      <div className="ball"></div>
+      <div className={`ball ball-${currentClass}`}></div>
       <Andza />
       <Mta> </Mta>
     </div>

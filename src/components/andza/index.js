@@ -2,13 +2,15 @@ import { AndzaLayout, ThickBottom, ThickMiddle, ThickTop } from "./andza.styled"
 import { MiddleThickConnectBottom, MiddleThickConnectTop } from "./andza.styled"
 import { TinyLegOne, TinyLegTwo, TinyLegThree, TinyLegFour } from "./andza.styled"
 import { SmallJointOne, SmallJointTwo, SmallJointThree, TopCircle } from "./andza.styled"
+import "../sky/index.scss"
 
 
+const Andza = (props) => {
 
-const Andza = () => {
+    const data = props.currentClass
 
     return (
-        <AndzaLayout>
+        <AndzaLayout className={`opa-${data}`}>
 
             <ThickTop>
                 <TopCircle></TopCircle>

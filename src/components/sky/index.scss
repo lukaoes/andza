@@ -144,23 +144,16 @@ body {
     position: absolute;
 }
 
-.ball-00 {
-    bottom: -80px;
-}
-
-.ball-01 {
-    bottom: -80px;
-}
-
-.ball-02 {
-    bottom: -80px;
-}
-
-.ball-03 {
-    bottom: -80px;
-}
-
-.ball-04 {
+.ball-00,
+.ball-01,
+.ball-02,
+.ball-03,
+.ball-04,
+.ball-20,
+.ball-21,
+.ball-22,
+.ball-23,
+.ball-24 {
     bottom: -80px;
 }
 
@@ -239,26 +232,44 @@ body {
     left: 75%;
 }
 
-.ball-20 {
-    bottom: -80px;
+.opa-22,
+.opa-23,
+.opa-24,
+.opa-01,
+.opa-02 {
+    opacity: 0.5;
 }
 
-.ball-21 {
-    bottom: -80px;
+.opa-21,
+.opa-03 {
+    opacity: 0.6;
 }
 
-.ball-22 {
-    bottom: -80px;
+.opa-20,
+.opa-04 {
+    opacity: 0.7;
 }
 
-.ball-23 {
-    bottom: -80px;
+.opa-05 {
+    opacity: 0.9;
 }
 
-.ball-24 {
-    bottom: -80px;
+.opa-06,
+.opa-07,
+.opa-08,
+.opa-09,
+.opa-10,
+.opa-11,
+.opa-12,
+.opa-13,
+.opa-14,
+.opa-15,
+.opa-16,
+.opa-17,
+.opa-18,
+.opa-19 {
+    opacity: 0.5;
 }
-
 
 
 .stars {

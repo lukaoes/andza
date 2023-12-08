@@ -1,9 +1,11 @@
 import { MtaLayout } from "./mta.index"
 
-const Mta = () => {
-
+const Mta = (props) => {
+    const data = props.currentClass
     return (
-        <MtaLayout></MtaLayout>
+        <MtaLayout className={`opa-${data}`}>
+
+        </MtaLayout>
     )
 }
 

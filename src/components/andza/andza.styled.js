@@ -7,9 +7,8 @@ export const AndzaLayout = styled.div`
     flex-direction: column;
     align-items: center;
     /* padding: 25px; */
-    opacity: 1;
     position: absolute;
-    bottom: 76px;
+    bottom: 76px;   
     left:60%;
 `
 

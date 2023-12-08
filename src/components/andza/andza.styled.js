@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
 export const AndzaLayout = styled.div`
-    height: 500px;
-    width: 200px;  // old was 100
-    background-color: gray;
+    /* height: 500px;
+    width: 200px;  // old was 100 */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px;
+    /* padding: 25px; */
+    opacity: 1;
+    position: absolute;
+    bottom: 76px;
+    left:60%;
 `
 
 export const ThickBottom = styled.div`

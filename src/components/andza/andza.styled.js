@@ -20,7 +20,7 @@ export const ThickBottom = styled.div`
         position: absolute;
         width: 10px;
         height: 50%;
-        box-shadow: 0px 0px 5px 2px rgba(197,197,197,0.32) inset;
+        box-shadow: 0px 0px 5px 2px rgba(144, 12, 63,0.32) inset;
     }
 
     &:after {top: 0px; background: #F5F7F8;  }
@@ -44,7 +44,7 @@ export const ThickMiddle = styled.div`
         #F5F7F8 100%
     );
 
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 3px 1px rgba(144, 12, 63,0.52) inset;
     
 `
 
@@ -65,7 +65,7 @@ export const ThickTop = styled.div`
     #ff3200 83%,
     #F5F7F8 83%
   );
-  box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+  box-shadow: 0px 0px 3px 1px rgba(144, 12, 63,0.52) inset;
   
 `
 
@@ -79,7 +79,6 @@ export const MiddleThickConnectBottom = styled.div`
     position: relative;
     background-color: #c5c5c5;
     z-index: 1;
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.92) inset;
     box-shadow: 0px 0px 0px 4px rgba(255,50,0,0.92) inset;
 
 `
@@ -106,7 +105,7 @@ export const TinyLegOne = styled.div`
     border-top-left-radius: 2px;
     top: 61.3px;
     right: 10px;
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 1px rgba(197,197,197,1) inset;
 
 `
 
@@ -118,7 +117,7 @@ export const TinyLegTwo = styled.div`
     position: absolute;
     top: 28px;
     right: 16px;
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 1px rgba(197,197,197,1) inset;
 
 `
 
@@ -130,7 +129,7 @@ export const TinyLegThree = styled.div`
     position: absolute;
     top: 63px;
     right: -50px;
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 1px rgba(197,197,197,1) inset;
 
 `
 
@@ -143,7 +142,7 @@ export const TinyLegFour = styled.div`
     top: 91px;
     right: 45px;
     border-top-right-radius: 20px;
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 1px rgba(197,197,197,1) inset;
 
 `
 
@@ -155,7 +154,7 @@ export const SmallJointOne = styled.div`
     top: 104px;
     left: -21px;
     border-top-left-radius: 2px;
-    box-shadow: 0px 0px 1px 0.3px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 0.3px rgba(144, 12, 63,0.52) inset;
 
 `
 
@@ -167,7 +166,7 @@ export const SmallJointTwo = styled.div`
     top: 72px;
     left: -15px;
     border-top-left-radius: 2px;
-    box-shadow: 0px 0px 1px 0.3px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 0.3px rgba(144, 12, 63,0.52) inset;
 
 `
 
@@ -179,7 +178,7 @@ export const SmallJointThree = styled.div`
     top: 43px;
     left: -9px;
     border-top-left-radius: 2px;
-    box-shadow: 0px 0px 1px 0.3px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 1px 0.3px rgba(144, 12, 63,0.52) inset;
 
 `
 
@@ -191,6 +190,6 @@ width: 10px;
     background-color: #ff3200;
     position: absolute;
     clip-path: ellipse(47% 28%);
-    box-shadow: 0px 0px 3px 1px rgba(197,197,197,0.52) inset;
+    box-shadow: 0px 0px 3px 1px rgba(144, 12, 63,0.92) inset;
 
 `

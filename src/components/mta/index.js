@@ -1,7 +1,9 @@
+import { MtaLayout } from "./mta.index"
+
 const Mta = () => {
 
     return (
-        <div>test</div>
+        <MtaLayout></MtaLayout>
     )
 }
 

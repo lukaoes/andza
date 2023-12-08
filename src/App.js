@@ -4,7 +4,7 @@ import Mta from "./components/mta";
 function App() {
   return (
     <div >
-      <Mta />
+      <Andza />
 
     </div>
   );

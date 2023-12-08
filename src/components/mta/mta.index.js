@@ -7,4 +7,5 @@ export const MtaLayout = styled.div`
     border-radius: 51% 49% 100% 0% / 100% 100% 0% 0% ;
     position: absolute;
     bottom: 0px;
+    
 `

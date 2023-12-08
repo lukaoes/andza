@@ -31,7 +31,18 @@ function App() {
 
   return (
     <div className={`sky-gradient sky-gradient-${currentClass}`}>
-      <div className={`ball ball-${currentClass}`}></div>
+      <div className="star-1"></div>
+      <div className="star-2"></div>
+      <div className="star-3"></div>
+      <div className="star-4"></div>
+      <div className="star-5"></div>
+      <div className="star-6"></div>
+      <div className="star-7"></div>
+      <div className="star-8"></div>
+      <div className="star-9"></div>
+      <div className="star-10"></div>
+      <div className={`sun ball-${currentClass}`}></div>
+      <div className={`moon moon-opa-${currentClass}`}></div>
       <Andza currentClass={currentClass} />
       <Mta currentClass={currentClass}> </Mta>
     </div>

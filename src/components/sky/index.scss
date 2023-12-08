@@ -135,7 +135,7 @@ body {
 
 
 
-.ball {
+.sun {
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -144,16 +144,27 @@ body {
     position: absolute;
 }
 
-.ball-00,
-.ball-01,
-.ball-02,
-.ball-03,
-.ball-04,
+.moon {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #b2b2b2;
+    box-shadow: 0 0 35px 5px #b2b2b2, 0 0 25px 10px #b2b2b2 inset;
+    position: absolute;
+    bottom: 400px;
+    left: 45%;
+}
+
 .ball-20,
 .ball-21,
 .ball-22,
 .ball-23,
-.ball-24 {
+.ball-24,
+.ball-00,
+.ball-01,
+.ball-02,
+.ball-03,
+.ball-04 {
     bottom: -80px;
 }
 
@@ -250,10 +261,7 @@ body {
     opacity: 0.7;
 }
 
-.opa-05 {
-    opacity: 0.9;
-}
-
+.opa-05,
 .opa-06,
 .opa-07,
 .opa-08,
@@ -268,19 +276,242 @@ body {
 .opa-17,
 .opa-18,
 .opa-19 {
-    opacity: 0.5;
+    opacity: 1;
 }
 
+.moon-opa-21,
+.moon-opa-22,
+.moon-opa-23,
+.moon-opa-24,
+.moon-opa-01,
+.moon-opa-02,
+.moon-opa-03 {
+    opacity: 1;
+}
 
-.stars {
+.moon-opa-20,
+.moon-opa-04 {
+    opacity: 0.6;
+}
+
+.moon-opa-05 {
+    opacity: 0.2;
+}
+
+.moon-opa-06,
+.moon-opa-07,
+.moon-opa-08,
+.moon-opa-09,
+.moon-opa-10,
+.moon-opa-11,
+.moon-opa-12,
+.moon-opa-13,
+.moon-opa-14,
+.moon-opa-15,
+.moon-opa-16,
+.moon-opa-17,
+.moon-opa-18,
+.moon-opa-19 {
+    opacity: 0;
+}
+
+.star-1 {
+    position: relative;
+    background-color: #FFFDFD;
+    top: 360px;
+    left: 495px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #FFFDFD,
+        -70px 150px 1px 0 #FFFDFD,
+        290px 150px 1px -1px #0F00BF,
+        -90px 100px 1px -1px #0C5DCC,
+        270px 10px 1px 0.11px #FFFDFD,
+        390px 80px 1px -0.6px #0C5DCC,
+        -30px 120px 3px -1px #0F00BF;
+    animation: pulsate 5s ease;
+    animation-iteration-count: infinite;
+
+}
+
+.star-2 {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    background: url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-    z-index: 0;
+    background-color: #FFFF00;
+    top: 389px;
+    left: 591px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #FFFF00,
+        -99px 30px 1px 0.09px #FFFF00,
+        355px 30px 0.5px 1px #FFFF00,
+        400px -30px 1px -1px #FFFF00,
+        400px 90px 1px -1px #FFFF00,
+        -50px -30px 1px -1px #FFFF00;
+    animation: pulsate 7s ease;
+    animation-iteration-count: infinite;
+
 }
+
+.star-3 {
+    position: relative;
+    background-color: #FFFDFD;
+    top: 321px;
+    left: 909px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #FFD700,
+        -120px 120px 1px 0.1px #FFD700,
+        240px 120px 1px -1px #FFD700,
+        -150px 80px 1px -1px #FFD700,
+        330px 0 1px 0.1px #FFD700,
+        450px 50px 1px -0.5px #FFD700,
+        -70px 90px 3px -1px #FFD700;
+    animation: pulsate 6s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-4 {
+    position: absolute;
+    background-color: #00FF00;
+    top: 282px;
+    left: 563px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 1px #00FF00,
+        -150px -20px 1px 0.08px #00FF00,
+        410px -20px 1px -1px #00FF00,
+        500px -80px 1px -1px #00FF00,
+        500px 40px 1px -1px #00FF00,
+        -80px -80px 1px -1px #00FF00;
+    animation: pulsate 8s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-5 {
+    position: relative;
+    background-color: #FF69B4;
+    top: 550px;
+    left: 334px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px #FF69B4,
+        -80px 60px 1px 0.06px #FF69B4,
+        320px 60px 1px -1px #FF69B4,
+        -100px 40px 1px -1px #FF69B4,
+        280px -10px 1px 0.05px #FF69B4,
+        400px 20px 1px -0.3px #FF69B4,
+        -20px 40px 2px -1px #FF69B4;
+    animation: pulsate 4s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-6 {
+    position: absolute;
+    background-color: #FF4500;
+    top: 731px;
+    left: 604px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #FF4500,
+        -200px -60px 1px 0.12px #FF4500,
+        480px -60px 1px -1px #FF4500,
+        600px -120px 1px -1px #FF4500,
+        600px 0 1px -1px #FF4500,
+        -120px -120px 1px -1px #FF4500;
+    animation: pulsate 6s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-7 {
+    position: relative;
+    background-color: #9400D3;
+    top: 511px;
+    left: 580px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #9400D3,
+        -160px 90px 1px 0.11px #9400D3,
+        400px 90px 1px -1px #9400D3,
+        -180px 50px 1px -1px #9400D3,
+        360px -20px 1px 0.09px #9400D3,
+        480px 10px 1px -0.6px #9400D3,
+        -40px 50px 3px -1px #9400D3;
+    animation: pulsate 7s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-8 {
+    position: absolute;
+    background-color: #00CED1;
+    top: 427px;
+    left: -373px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 1px #00CED1,
+        -240px 0 1px 0.09px #00CED1,
+        560px 0.5px 1px -1px #00CED1,
+        680px -60px 1px -1px #00CED1,
+        680px 60px 1px -1px #00CED1,
+        -150px -150px 1px -1px #00CED1;
+    animation: pulsate 9s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-9 {
+    position: relative;
+    background-color: #8A2BE2;
+    top: 422px;
+    left: 1279px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px #8A2BE2,
+        -200px 30px 1px 0.06px #8A2BE2,
+        480px 30px 1px -1px #8A2BE2,
+        -250px -10px 1px -1px #8A2BE2,
+        430px -60px 1px 0.05px #8A2BE2,
+        550px -30px 1px -0.3px #8A2BE2,
+        -70px 10px 2px -1px #8A2BE2;
+    animation: pulsate 5s ease;
+    animation-iteration-count: infinite;
+}
+
+.star-10 {
+    position: absolute;
+    background-color: #FF6347;
+    top: 356px;
+    left: -30px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #FF6347,
+        -280px -90px 1px 0.12px #FF6347,
+        680px -90px 1px -1px #FF6347,
+        800px -150px 1px -1px #FF6347,
+        800px -30px 1px -1px #FF6347,
+        -200px -180px 1px -1px #FF6347;
+    animation: pulsate 8s ease;
+    animation-iteration-count: infinite;
+}
+
+// @keyframes pulsate {
+//     0% {
+//         opacity: 0.0;
+//     }
+
+//     50% {
+//         opacity: 1.0;
+//     }
+
+//     100% {
+//         opacity: 0.0;
+//     }
+// }

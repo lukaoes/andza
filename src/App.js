@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div className={`sky-gradient sky-gradient-${currentClass}`}>
+      <div className="ball"></div>
       <Andza />
       <Mta> </Mta>
     </div>

@@ -8,7 +8,7 @@ export const AndzaLayout = styled.div`
     align-items: center;
     /* padding: 25px; */
     position: absolute;
-    bottom: 76px;   
+    bottom: 176px;   
     left:60%;
 `
 

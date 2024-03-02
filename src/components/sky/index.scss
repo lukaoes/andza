@@ -10,6 +10,7 @@ body {
     padding: 0;
     background: #00000c;
     overflow: hidden;
+    font-family: "Noto Sans Georgian", sans-serif;
 }
 
 .sky-gradient {
@@ -315,6 +316,39 @@ body {
     opacity: 0;
 }
 
+.star-opa-21,
+.star-opa-22,
+.star-opa-23,
+.star-opa-24,
+.star-opa-01,
+.star-opa-02,
+.star-opa-03 {
+    opacity: 1;
+}
+
+.star-opa-20,
+.star-opa-04 {
+    opacity: 0.6;
+}
+
+.star-opa-05,
+.star-opa-06,
+.star-opa-07,
+.star-opa-08,
+.star-opa-09,
+.star-opa-10,
+.star-opa-11,
+.star-opa-12,
+.star-opa-13,
+.star-opa-14,
+.star-opa-15,
+.star-opa-16,
+.star-opa-17,
+.star-opa-18,
+.star-opa-19 {
+    z-index: -1;
+}
+
 .star-1 {
     position: relative;
     background-color: #FFFDFD;
@@ -502,16 +536,37 @@ body {
     animation-iteration-count: infinite;
 }
 
-// @keyframes pulsate {
-//     0% {
-//         opacity: 0.0;
-//     }
+@keyframes pulsate {
+    0% {
+        opacity: 0.0;
+    }
 
-//     50% {
-//         opacity: 1.0;
-//     }
+    50% {
+        opacity: 1.0;
+    }
 
-//     100% {
-//         opacity: 0.0;
-//     }
-// }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+.weather {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -180px;
+    color: #fff;
+    opacity: 0.7;
+    h1 {
+        text-align: center;
+        margin: 0;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    h2 {
+        text-align: center;
+        margin: 10px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+}

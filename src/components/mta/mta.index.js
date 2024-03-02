@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const MtaLayout = styled.div`
     width: 100vw;

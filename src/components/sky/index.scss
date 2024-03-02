@@ -554,7 +554,7 @@ body {
     position: absolute;
     top: 30px;
     left: 50%;
-    margin-left: -180px;
+    transform: translateX(-50%);
     color: #fff;
     opacity: 0.7;
     h1 {

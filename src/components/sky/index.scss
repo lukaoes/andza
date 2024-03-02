@@ -575,6 +575,15 @@ body {
     }
 }
 
+.control {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
 .view {
     cursor: pointer;
     display: flex;
@@ -585,14 +594,27 @@ body {
     height: 40px;
     opacity: 0.3;
     background-color: #000;
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
     transition: all 0.3s ease-in-out;
     svg {
         fill: #fff;
     }
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.sound {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 40px;
+    opacity: 0.3;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
         opacity: 1;

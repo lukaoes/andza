@@ -10,6 +10,7 @@ export const AndzaLayout = styled.div`
     position: absolute;
     bottom: 136px;   
     left:60%;
+    z-index: 2;
 `
 
 export const ThickBottom = styled.div`

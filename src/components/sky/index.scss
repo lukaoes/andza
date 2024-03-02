@@ -350,10 +350,10 @@ body {
 }
 
 .star-1 {
-    position: relative;
+    left: 10%;
+    position: absolute;
     background-color: #FFFDFD;
     top: 360px;
-    left: 495px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -389,10 +389,10 @@ body {
 }
 
 .star-3 {
-    position: relative;
+    left: 10%;
+    position: absolute;
     background-color: #FFFDFD;
     top: 321px;
-    left: 909px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -408,10 +408,10 @@ body {
 }
 
 .star-4 {
-    position: absolute;
     background-color: #00FF00;
-    top: 282px;
-    left: 563px;
+    top: 382px;
+    left: 30%;
+    position: absolute;
     width: 5px;
     height: 5px;
     border-radius: 50%;
